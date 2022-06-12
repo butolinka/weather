@@ -7,7 +7,7 @@ const input = document.querySelector('#input');
 input.addEventListener('keydown',enter);
 function enter(e){
   if(e.keyCode===13){
-    getInfo(input.value)
+    getInfo(input.value.trim())
   }
 }
 async function getInfo(data) {
