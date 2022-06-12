@@ -1,0 +1,47 @@
+
+
+body {
+    background-image: url('https://images.unsplash.com/photo-1558486012-817176f84c6d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=670&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    }
+    
+    
+    #container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-image: linear-gradient(rgba(233, 200, 200, 0.3), rgba(0, 0, 0, 0.6));
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    }
+
+    #header {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    #input {
+        background-color: rgba(142, 127, 161, 0.3);
+        border-radius: 20px;
+        border: 3px solid #CDF3A2;
+        padding: 15px;
+        font-size: 10px;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 20px;
+        }
+        #input:focus{
+            background-color: white;
+        }
+    p{
+        font-family: 'Barlow Condensed', sans-serif;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+    }
+    #temperature{
+        font-size: 65px;
+        text-align: center;
+    }
