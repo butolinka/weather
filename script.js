@@ -1,7 +1,7 @@
 
 const api={
     endpoint:"https://api.openweathermap.org/data/2.5/",
-    key: '7ba2286f82fd4c7e7222af27097a4888'
+    key: '0ce74620e6b60845e4b1701aab5f339d'
 }
 const input = document.querySelector('#input');
 input.addEventListener('keydown',enter);
